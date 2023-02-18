@@ -46,7 +46,7 @@ function App() {
                           Lang:{ languages.map(responce => {
                             return (
                               <Typography sx={{fontSize: 14}}  component="span" color="text.secondary">
-                                {responce.name + ' '} 
+                                {responce.name + ', '} 
                               </Typography>
                             )
                           })}
